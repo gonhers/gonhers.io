@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Vector Ink Export.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Valentin Gonzalez Desarrollador Front-End</title>
+</head>
+
+<body style="background-color: #022C43;">
+    <nav class="navbar" style="background-color: #022C43;">
+        <div class=" container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Vector Ink Export.svg" alt="Logo" width="60" height="54"
+                    class="d-inline-block align-text-top">
+            </a>
+
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid justify-content-center ">
+        <div class="container">
+            <img src="img/me.png.jpg" width="200" height="200" class="rounded mx-auto d-block" alt="...">
+            <h1 class="display-4 text-center">Valentin Gonzalez</h1>
+            <p class="p lead text-center">Trabajo en equipo-empático y detallista. Estudiante de
+                programación con experiencia en atención al cliente y manejo
+                de bases de datos, con muchas ganas de aprender de mis
+                superiores. He aprendido las habilidades blandas necesarias
+                para el puesto, como la comunicación efectiva, el pensamiento
+                crítico y la actitud de resolución de problemas. Soy entrenable
+                para aprender lo que sea necesario para el puesto y en mi
+                crecimiento personal y profesional.</p>
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="card-group">
+            <div class="card bg-transparent">
+                <img src="img/basedatos.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Experiencia</h5>
+                    <p class="card-text">Astrik / Atención al cliente, Diseñador de Base de Datos
+                        ENERO 2018 - DICIEMBRE 2022, Rivadavia 818, Pilar, B1629 GBA</p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img src="img/code.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Conocimientos</h5>
+                    <p class="card-text">HTML, CSS, JS, Python, Ruby, SQL</p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img src="img/softsk.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Skills</h5>
+                    <p class="card-text">Lenguajes de administración
+                        de bases de datos.
+                        ● Habilidades
+                        computacionales.
+                        ● Conocimientos en protección
+                        de datos.
+                        ● Actualizado
+                        ● Conocimiento de negocios.
+                        ● Microsoft 365.
+                        ● SAP
+                        ● Google Sheets.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/resume.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <div id="formulario" class="contact_form">
+
+        <div class="formulario">
+            <h1 class="text-center">Contactame</h1>
+
+            <form action="submeter-formulario.php" method="post">
+
+
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+
+                <p>
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
+
+                <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+
+                <p>
+                    <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                        placeholder="Escribe un asunto">
+                </p>
+
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p>Enviar</p>
+                </button>
+
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>
+
+            </form>
+        </div>
+    </div>
+    <footer class="container p-4 rounded">
+        <div class="d-lg-flex justify-content-between">
+            <div>
+                <span><img src="img/Vector Ink Export.svg" alt="Logo" width="56" height="50"></span>
+            </div>
+            <div class="copyright">
+                <p>developed and maintained by <a href="#" target="_blank">Gonher</a></p>
+            </div>
+            <div>
+                <ul class="d-flex gap-3 list-unstyled">
+                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
